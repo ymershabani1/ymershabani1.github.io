@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-AKS | Rreth nesh</title>
+  <link rel="stylesheet" href="/v2/styles.css" />
+</head>
+<body class="page-inner">
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar__top">
+      <div>
+        <h2 class="sidebar__title">Produktet</h2>
+      </div>
+      <button class="sidebar__close" id="closeSidebar" aria-label="Mbyll">×</button>
+    </div>
+    <div class="sidebar__tabs">
+      <button class="sidebar__tab is-active" data-panel="tregti">Tregti</button>
+      <button class="sidebar__tab" data-panel="prodhim">Prodhim</button>
+    </div>
+    <div class="sidebar__panels">
+      <div class="sidebar__panel is-active" id="panel-tregti">
+        <p class="sidebar__division">PRODUKTE (Tregti me shumicë &amp; pakicë)</p>
+        <details class="cat" open>
+          <summary>Katalogu i plotë</summary>
+          <ul>
+            <li><a class="cat-link" href="/v2/#produkte">Shiko produktet në kryefaqe</a></li>
+            <li><a class="cat-link" href="/v2/">Hap strukturën e produkteve</a></li>
+          </ul>
+        </details>
+      </div>
+      <div class="sidebar__panel" id="panel-prodhim">
+        <p class="sidebar__division">PRODHIM &amp; SHËRBIME TË FABRIKËS</p>
+        <details class="cat" open>
+          <summary>Fabrika</summary>
+          <ul>
+            <li><a class="cat-link" href="/v2/#fabrika">Shiko fabrikën</a></li>
+            <li><a class="cat-link" href="/v2/#sherbime">Shërbimet</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </aside>
+
+  <header class="header">
+    <div class="site-bar">
+      <a class="logo" href="/v2/">
+        <img src="/assets/img/logo.svg" alt="K-AKS" />
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="/v2/">Kryefaqja</a>
+        <button class="nav__products" id="openProducts" type="button">Produktet</button>
+        <a href="/v2/#fabrika">Fabrika</a>
+        <a href="/v2/#sherbime">Shërbimet</a>
+        <a href="/v2/rreth-nesh.html" aria-current="page">Rreth nesh</a>
+        <a href="/v2/#prodhuesit">Partnerët</a>
+        <a href="/v2/#dyqanet">Dyqanet</a>
+        <a href="/v2/#kontakt">Kontakt</a>
+        <div class="lang-switch" id="langSwitch">
+          <button type="button" class="lang-switch__btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+            <img class="lang-switch__flag" src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" />
+            <span class="lang-switch__code">SQ</span>
+            <span class="lang-switch__caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-switch__menu" id="langMenu" role="listbox" hidden>
+            <li>
+              <button type="button" class="lang-option is-active" data-lang="sq" data-label="SQ" data-flag="https://flagcdn.com/w40/al.png">
+                <img src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" /> Shqip
+              </button>
+            </li>
+            <li>
+              <button type="button" class="lang-option" data-lang="it" data-label="IT" data-flag="https://flagcdn.com/w40/it.png">
+                <img src="https://flagcdn.com/w40/it.png" alt="" width="20" height="14" /> Italiano
+              </button>
+            </li>
+            <li>
+              <button type="button" class="lang-option" data-lang="en" data-label="EN" data-flag="https://flagcdn.com/w40/us.png">
+                <img src="https://flagcdn.com/w40/us.png" alt="" width="20" height="14" /> English
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="site page-hero__inner">
+        <div class="page-hero__copy">
+          <h1>Shaping the future<br />që nga 1998</h1>
+          <p class="lead">
+            K-AKS është një kompani industriale me mbi dy dekada përvojë, me bazë në Durrës,
+            që furnizon dhe prodhon profile alumini, PVC, çeliku dhe aksesorë në të gjithë Ballkanin.
+          </p>
+        </div>
+        <div class="page-hero__media">
+          <img src="/assets/img/company/svc-showroom-1.jpg" alt="Showroom K-AKS" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about-story site">
+      <div class="about-story__text">
+        <h2>Nga tregtia te prodhimi</h2>
+        <p>
+          E themeluar në 1998 përmes investimeve, kërkimit dhe studimeve të vazhdueshme,
+          K-AKS tregton me shumicë e pakicë mbi 4000 artikuj: profile alumini, plastike,
+          hekuri dhe nënprodukte të tyre. Ofrojmë edhe shërbim montimi — profesionalë që
+          vijnë te ju dhe instalojnë gjithçka me shpejtësi e efikasitet.
+        </p>
+        <p>
+          Një moment kyç erdhi në 2015 me hapjen e fabrikës 9,500 m², që na mundësoi
+          të prodhojmë një gamë të gjerë produktesh PVC, alumini dhe çeliku duke mbajtur
+          kontroll të plotë mbi cilësinë, efikasitetin dhe inovacionin.
+        </p>
+      </div>
+      <div class="about-story__gallery">
+        <img src="/assets/img/company/svc-facility-2.jpg" alt="Fabrikë K-AKS" />
+        <img src="/assets/img/company/svc-team-1.jpg" alt="Ekipi K-AKS" />
+        <img src="/assets/img/company/svc-work-1.jpg" alt="Punime në fabrikë" />
+      </div>
+    </section>
+
+    <section class="about-mission site">
+      <div>
+        <h2>Zgjidhje të besueshme për profesionistët</h2>
+        <p>
+          Të ofrojmë zgjidhje inovative, të besueshme dhe me cilësi të lartë për ndërtim
+          e industri — që ndihmojnë arkitektë, inxhinierë dhe fabriktorë të krijojnë
+          hapësira të qëndrueshme, efikase dhe moderne.
+        </p>
+      </div>
+      <div>
+        <h2>Partneri më i besuar në Ballkan</h2>
+        <p>
+          Të bëhemi partneri më i besuar dhe i respektuar për zgjidhje ndërtimi e
+          prodhimi në Ballkan — i njohur për inovacion, cilësi, integritet dhe
+          marrëdhënie afatgjata me klientët.
+        </p>
+      </div>
+    </section>
+
+    <section class="about-values site">
+      <div class="section-head">
+        <div>
+          <h2>Çfarë na udhëheq</h2>
+        </div>
+      </div>
+      <div class="about-values__grid">
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l2.4 7.2H22l-6 4.4 2.3 7.2L12 16.8 5.7 20.8 8 13.6 2 9.2h7.6L12 2z"/></svg>
+          </div>
+          <h3>Ekselencë</h3>
+          <p>Cilësi në çdo produkt, proces dhe partneritet.</p>
+        </article>
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 017 7c0 2.5-1.2 4.2-2.5 5.5-.8.8-1.5 1.7-1.5 3.5H9c0-1.8-.7-2.7-1.5-3.5C6.2 13.2 5 11.5 5 9a7 7 0 017-7z"/></svg>
+          </div>
+          <h3>Inovacion</h3>
+          <p>Investim i vazhdueshëm në teknologji dhe metoda moderne prodhimi.</p>
+        </article>
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Integritet</h3>
+          <p>Besimi fitohet me transparencë, ndershmëri dhe konsistencë.</p>
+        </article>
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Partneritet</h3>
+          <p>Rritemi së bashku me klientët, furnizuesit dhe bashkëpunëtorët.</p>
+        </article>
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22c5.5 0 10-4.5 10-10S17.5 2 12 2 2 6.5 2 12s4.5 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Besueshmëri</h3>
+          <p>Mbajmë premtimet me shërbim të qëndrueshëm dhe standarde të larta.</p>
+        </article>
+        <article>
+          <div class="value-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Afërsi</h3>
+          <p>12 dyqane dhe rrjet logjistik që na mbajnë pranë projektit tuaj.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-facts">
+      <div>
+        <strong>1998</strong>
+        <span>Viti i themelimit</span>
+      </div>
+      <div>
+        <strong>4000+</strong>
+        <span>Produkte</span>
+      </div>
+      <div>
+        <strong>9500 m²</strong>
+        <span>Fabrikë prodhimi</span>
+      </div>
+      <div>
+        <strong>12</strong>
+        <span>Dyqane</span>
+      </div>
+    </section>
+
+    <section class="about-cta">
+      <div class="about-cta__inner">
+        <h2>Le të ndërtojmë diçka së bashku</h2>
+        <p>Ndoshta ka një mënyrë si mund t’ju ndihmojmë të thjeshtoni procesin ose projektin tuaj.</p>
+        <div class="about-cta__actions">
+          <a class="btn" href="/v2/#kontakt">Na kontaktoni</a>
+          <a class="btn btn--ghost-dark" href="/v2/#produkte">Shiko produktet</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="site footer__inner">
+      <div>
+        <img class="footer__logo" src="/assets/img/logo-footer.svg" alt="K-AKS" />
+        <p>Shaping the future · Që nga 1998</p>
+      </div>
+      <div>
+        <h3>Lidhje</h3>
+        <p><a href="/v2/">Kryefaqja</a></p>
+        <p><a href="/v2/#fabrika">Fabrika</a></p>
+        <p><a href="/v2/rreth-nesh.html">Rreth nesh</a></p>
+        <p><a href="/v2/#kontakt">Kontakt</a></p>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <p>info@k-aks.com</p>
+        <p>+355 69 207 5641</p>
+      </div>
+    </div>
+  </footer>
+  <script src="/v2/script.js"></script>
+</body>
+</html>

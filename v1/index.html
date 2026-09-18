@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-AKS | Struktura e Produkteve</title>
+  <link rel="stylesheet" href="/v1/styles.css" />
+</head>
+<body>
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar__top">
+      <div>
+        <p class="sidebar__eyebrow">Struktura</p>
+        <h2 class="sidebar__title">Produktet</h2>
+      </div>
+      <button class="sidebar__close" id="closeSidebar" aria-label="Mbyll">×</button>
+    </div>
+
+    <div class="sidebar__tabs">
+      <button class="sidebar__tab is-active" data-panel="tregti">Tregti</button>
+      <button class="sidebar__tab" data-panel="prodhim">Prodhim</button>
+    </div>
+
+    <div class="sidebar__panels">
+      <div class="sidebar__panel is-active" id="panel-tregti">
+        <p class="sidebar__division">PRODUKTE (Tregti me shumicë &amp; pakicë)</p>
+
+        <details class="cat" open>
+          <summary>1. Profile &amp; sisteme</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="profile-secco">Profile Secco (dyer, dritare, fasada)</button></li>
+            <li><button type="button" class="cat-link" data-cat="seria-sa">Seria SA15 / SA20 / OS2 / EBE / 4F</button></li>
+            <li><button type="button" class="cat-link" data-cat="zero-gravity">Sistemi ØG — zero gravity</button></li>
+            <li><button type="button" class="cat-link" data-cat="materiale">Materiale: bronz, cor-ten, inox</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>2. Aksesorë dyersh &amp; dritaresh</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="menteshe">Tilt &amp; turn / menteshe</button></li>
+            <li><button type="button" class="cat-link" data-cat="brave">Bravë &amp; cilindra</button></li>
+            <li><button type="button" class="cat-link" data-cat="doreza">Doreza (hapje, rrëshqitje)</button></li>
+            <li><button type="button" class="cat-link" data-cat="skuadreta">Skuadreta</button></li>
+            <li><button type="button" class="cat-link" data-cat="rula">Rula dyersh rrëshqitëse</button></li>
+            <li><button type="button" class="cat-link" data-cat="aksesore-plastik">Aksesorë plastikë</button></li>
+            <li><button type="button" class="cat-link" data-cat="aksesore-xhami">Aksesorë xhami</button></li>
+            <li><button type="button" class="cat-link" data-cat="sisteme-siegenia">Sisteme Siegenia / AGB</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>3. Guarnicione EPDM</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="epdm">Guarnicione EPDM për dyer e dritare</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>4. Dyer industriale &amp; speciale</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="dyer-industriale">Dyer me palosje &amp; industriale</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-garazhi">Dyer garazhi residenciale</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-zjarri">Dyer kundër zjarrit</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-shpejta">Dyer të shpejta</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-hermetike">Dyer hermetike</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-automatike">Dyer automatike</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>5. Sisteme automatike &amp; siguri</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="barriera">Barriera automatike &amp; anti-terror</button></li>
+            <li><button type="button" class="cat-link" data-cat="parkimi">Sisteme parkimi automatik</button></li>
+            <li><button type="button" class="cat-link" data-cat="akses-kontrolli">Akses kontrolli</button></li>
+            <li><button type="button" class="cat-link" data-cat="nuki">Bravë me kartë / Nuki</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>6. Grila</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="persiane">Grila Persiane</button></li>
+            <li><button type="button" class="cat-link" data-cat="luxor">Roleta Luxor</button></li>
+            <li><button type="button" class="cat-link" data-cat="tenda">Tenda (Awning)</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>7. Ndarës ambientesh</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="ndares-rreshqites">Sisteme rrëshqitëse</button></li>
+            <li><button type="button" class="cat-link" data-cat="ndares-hapje">Sisteme me hapje</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>8. Të tjera industriale</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="hpl">Ndarës tualetesh HPL</button></li>
+            <li><button type="button" class="cat-link" data-cat="dushi">Aksesorë kabina dushi</button></li>
+            <li><button type="button" class="cat-link" data-cat="soudal">Silikon, ngjitës &amp; shkumë</button></li>
+          </ul>
+        </details>
+      </div>
+
+      <div class="sidebar__panel" id="panel-prodhim">
+        <p class="sidebar__division">PRODHIM &amp; SHËRBIME TË FABRIKËS</p>
+
+        <details class="cat" open>
+          <summary>1. Teknologji mekanike &amp; precizion</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="cnc">Punime CNC frezë / torno</button></li>
+            <li><button type="button" class="cat-link" data-cat="edm">EDM &amp; retifikime</button></li>
+            <li><button type="button" class="cat-link" data-cat="metrologji">Sallë metrologjike</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>2. Stampimi i metaleve</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="stampim">Stampimi i metaleve në precizion</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>3. Stampa injeksioni &amp; ekstruzioni</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="injeksion">Stampa injeksioni &amp; ekstruzioni</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>4. Karpenteria</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="karpenteri">Konstruksione metalike</button></li>
+            <li><button type="button" class="cat-link" data-cat="laser">Prerje me laser 6000W</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>5. Trajtime sipërfaqesh</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="trajtime">Veshje, anodizim, lyerje</button></li>
+          </ul>
+        </details>
+
+        <details class="cat">
+          <summary>6. Shërbim montimi</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="montim">Montim &amp; konsulencë teknike</button></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </aside>
+
+  <header class="header">
+    <a class="logo" href="/v1/">
+      <img src="/assets/img/logo.svg" alt="K-AKS" />
+    </a>
+    <nav class="nav">
+      <a href="/v1/">Kryefaqja</a>
+      <button class="nav__products" id="openProducts" type="button">Produktet</button>
+      <a href="/v1/#sherbime">Shërbimet</a>
+      <a href="/v1/rreth-nesh.html">Rreth nesh</a>
+      <a href="/v1/#prodhuesit">Partnerët</a>
+      <a href="/v1/#dyqanet">Dyqanet</a>
+      <a href="/v1/#kontakt">Kontakt</a>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-switch__btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+          <img class="lang-switch__flag" src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" />
+          <span class="lang-switch__code">SQ</span>
+          <span class="lang-switch__caret" aria-hidden="true">▾</span>
+        </button>
+        <ul class="lang-switch__menu" id="langMenu" role="listbox" hidden>
+          <li>
+            <button type="button" class="lang-option is-active" data-lang="sq" data-label="SQ" data-flag="https://flagcdn.com/w40/al.png">
+              <img src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" /> Shqip
+            </button>
+          </li>
+          <li>
+            <button type="button" class="lang-option" data-lang="it" data-label="IT" data-flag="https://flagcdn.com/w40/it.png">
+              <img src="https://flagcdn.com/w40/it.png" alt="" width="20" height="14" /> Italiano
+            </button>
+          </li>
+          <li>
+            <button type="button" class="lang-option" data-lang="en" data-label="EN" data-flag="https://flagcdn.com/w40/us.png">
+              <img src="https://flagcdn.com/w40/us.png" alt="" width="20" height="14" /> English
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="heroSlider" aria-roledescription="carousel" aria-label="Hero">
+      <div class="hero__slides">
+        <article class="hero__slide is-active" data-bg="/assets/img/hero-slide-1.jpg">
+          <img class="hero__bg" src="/assets/img/hero-slide-1.jpg" alt="" />
+          <div class="hero__veil"></div>
+          <div class="hero__copy">
+            <p class="eyebrow">Që nga 1998 · Durrës, Shqipëri</p>
+            <h1>Ti ëndërron,<br />ne krijojmë.</h1>
+            <p class="lead">
+              Mbi 4000 produkte alumini, PVC dhe çeliku — me shumicë, pakicë dhe montim
+              në të gjithë Ballkanin.
+            </p>
+            <div class="hero__actions">
+              <button class="btn js-open-products" type="button">Shiko strukturën</button>
+              <a class="btn btn--ghost" href="/v1/#produkte">Produktet</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide" data-bg="/assets/img/hero-slide-2.jpg">
+          <img class="hero__bg" src="/assets/img/hero-slide-2.jpg" alt="" />
+          <div class="hero__veil"></div>
+          <div class="hero__copy">
+            <p class="eyebrow">Profile &amp; sisteme</p>
+            <h1>Alumini, PVC<br />dhe çelik.</h1>
+            <p class="lead">
+              Profile Secco, seritë SA15/SA20/OS2 dhe fasada moderne për projekte
+              residenciale e industriale.
+            </p>
+            <div class="hero__actions">
+              <button class="btn js-open-products" type="button">Hap katalogun</button>
+              <a class="btn btn--ghost" href="/v1/#produkte">Shiko kategoritë</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide" data-bg="/assets/img/hero-slide-3.jpg">
+          <img class="hero__bg" src="/assets/img/hero-slide-3.jpg" alt="" />
+          <div class="hero__veil"></div>
+          <div class="hero__copy">
+            <p class="eyebrow">Aksesorë &amp; mekanizma</p>
+            <h1>Detaje që<br />bëjnë ndryshimin.</h1>
+            <p class="lead">
+              Menteshe, bravë, doreza dhe sisteme Siegenia / AGB për dyer e dritare
+              me performancë të lartë.
+            </p>
+            <div class="hero__actions">
+              <button class="btn js-open-products" type="button">Hap katalogun</button>
+              <a class="btn btn--ghost" href="/v1/#prodhuesit">Prodhuesit</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide" data-bg="/assets/img/hero-slide-4.jpg">
+          <img class="hero__bg" src="/assets/img/hero-slide-4.jpg" alt="" />
+          <div class="hero__veil"></div>
+          <div class="hero__copy">
+            <p class="eyebrow">Dyer industriale</p>
+            <h1>Zgjidhje për<br />hapësira të mëdha.</h1>
+            <p class="lead">
+              Dyer palosëse, garazhi, kundër zjarrit, hermetike dhe automatike —
+              për depo, fabrika dhe objekte publike.
+            </p>
+            <div class="hero__actions">
+              <button class="btn js-open-products" type="button">Hap katalogun</button>
+              <a class="btn btn--ghost" href="/v1/#kontakt">Kërko ofertë</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide" data-bg="/assets/img/hero-slide-5.jpg">
+          <img class="hero__bg" src="/assets/img/hero-slide-5.jpg" alt="" />
+          <div class="hero__veil"></div>
+          <div class="hero__copy">
+            <p class="eyebrow">Prodhim &amp; rrjet</p>
+            <h1>12 dyqane.<br />1 fabrikë.</h1>
+            <p class="lead">
+              Rrjet shitjeje në Shqipëri e Kosovë, plus fabrikë 9,500 m² për
+              prodhim dhe shërbime teknike.
+            </p>
+            <div class="hero__actions">
+              <a class="btn" href="/v1/#dyqanet">Gjej dyqanin</a>
+              <a class="btn btn--ghost" href="/v1/#kontakt">Na kontaktoni</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <button class="hero-slider__btn hero-slider__btn--prev" type="button" aria-label="Para">‹</button>
+      <button class="hero-slider__btn hero-slider__btn--next" type="button" aria-label="Tjetër">›</button>
+      <div class="hero-slider__dots" id="heroDots" role="tablist" aria-label="Zgjidh slide"></div>
+    </section>
+
+    <section class="stats">
+      <div>
+        <strong>4000+</strong>
+        <span>Produkte</span>
+      </div>
+      <div>
+        <strong>9500 m²</strong>
+        <span>Fabrikë prodhimi</span>
+      </div>
+      <div>
+        <strong>25+</strong>
+        <span>Vite përvojë</span>
+      </div>
+      <div>
+        <strong>12</strong>
+        <span>Dyqane</span>
+      </div>
+    </section>
+
+    <section class="catalog" id="katalog" hidden>
+      <div class="catalog__bar">
+        <button class="text-link" type="button" id="catalogBack">← Kthehu</button>
+        <button class="btn btn--small js-open-products" type="button">Ndrysho kategorinë</button>
+      </div>
+      <div class="section-head">
+        <p class="eyebrow" id="catalogEyebrow">Kategoria</p>
+        <h2 id="catalogTitle">Produktet</h2>
+        <p id="catalogDesc">Zgjidhni një produkt dhe shkarkoni katalogun PDF.</p>
+      </div>
+      <div class="catalog__grid" id="catalogGrid"></div>
+    </section>
+
+    <section class="products" id="produkte">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Katalogu</p>
+        <h2>Produktet tona</h2>
+        <p>Zgjidh kategorinë nga <strong>Produktet</strong> në header për të parë katalogun.</p>
+      </div>
+
+      <div class="products__featured">
+        <article class="products__feature">
+          <img src="/assets/img/feature-profiles.jpg" alt="Profile dhe sisteme" />
+          <div class="products__feature-body">
+            <span>01</span>
+            <h3>Profile &amp; sisteme</h3>
+            <p>Secco, SA15/SA20, OS2, EBE, fasada 4F dhe ØG zero gravity.</p>
+            <button class="btn btn--small js-open-products" type="button">Shiko nën-kategoritë</button>
+          </div>
+        </article>
+        <article class="products__feature products__feature--flip">
+          <img src="/assets/img/feature-production.jpg" alt="Prodhim fabrike" />
+          <div class="products__feature-body">
+            <span>02</span>
+            <h3>Prodhim &amp; shërbime</h3>
+            <p>CNC, stampim, karpenteri, trajtime sipërfaqesh dhe montim në terren.</p>
+            <button class="btn btn--small js-open-products" type="button">Hap panelin Prodhim</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="products__grid">
+        <article class="product-tile">
+          <div class="product-tile__media">
+            <img src="/assets/img/tile-accessories.jpg" alt="Aksesorë" />
+            <span class="product-tile__tag">Aksesorë</span>
+          </div>
+          <h3>Aksesorë dyersh &amp; dritaresh</h3>
+          <p>Menteshe, bravë, doreza, rula dhe sisteme Siegenia / AGB.</p>
+        </article>
+        <article class="product-tile">
+          <div class="product-tile__media">
+            <img src="/assets/img/tile-doors.jpg" alt="Dyer industriale" />
+            <span class="product-tile__tag">Dyer</span>
+          </div>
+          <h3>Dyer industriale &amp; speciale</h3>
+          <p>Palosëse, garazhi, kundër zjarrit, hermetike dhe automatike.</p>
+        </article>
+        <article class="product-tile">
+          <div class="product-tile__media">
+            <img src="/assets/img/tile-security.jpg" alt="Sisteme automatike" />
+            <span class="product-tile__tag">Siguri</span>
+          </div>
+          <h3>Sisteme automatike &amp; siguri</h3>
+          <p>Barriera, pistona, parkimi, akses kontrolli dhe bravë hoteli.</p>
+        </article>
+        <article class="product-tile">
+          <div class="product-tile__media">
+            <img src="/assets/img/tile-shutters.jpg" alt="Grila" />
+            <span class="product-tile__tag">Grila</span>
+          </div>
+          <h3>Grila &amp; tende</h3>
+          <p>Persiane, Luxor, motorë porta dhe tende residenciale / industriale.</p>
+        </article>
+      </div>
+
+      <div class="products__cta">
+        <button class="btn js-open-products" type="button">Hap produktet</button>
+      </div>
+    </section>
+
+    <section class="services" id="sherbime">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Çfarë ofrojmë</p>
+        <h2>Shërbimet</h2>
+        <p>Nga projektimi te montimi — ekipi ynë ju mbështet në çdo fazë të projektit.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>01</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/><path d="M9 11h4M11 9v4"/></svg>
+            </div>
+          </div>
+          <h3>Konsulencë teknike</h3>
+          <p>Ndihmë për zgjedhjen e profilesh, aksesorëve dhe sistemeve sipas projektit tuaj.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>02</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><path d="M4 10l8 4 8-4"/></svg>
+            </div>
+          </div>
+          <h3>Projektim &amp; matje</h3>
+          <p>Matje në objekt, skicime dhe specifikime teknike për dyer, dritare e fasada.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>03</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="8" width="18" height="12" rx="1"/><path d="M7 8V6a2 2 0 012-2h6a2 2 0 012 2v2"/><path d="M8 14h8M8 17h5"/></svg>
+            </div>
+          </div>
+          <h3>Prodhim në fabrikë</h3>
+          <p>CNC, stampim, karpenteri metalike dhe trajtime sipërfaqesh në 9,500 m².</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>04</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+          </div>
+          <h3>Montim në terren</h3>
+          <p>Montim profilesh dhe sistemesh te klienti, me ekip profesional në të gjithë rajonin.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>05</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+          <h3>Mirëmbajtje &amp; pjesë këmbimi</h3>
+          <p>Furnizim me aksesorë, bravë, motorë dhe pjesë këmbimi për sistemet ekzistuese.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__top">
+            <span>06</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h11v10H3z"/><path d="M14 10h4l3 3v4h-7V10z"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+          </div>
+          <h3>Transport &amp; logjistikë</h3>
+          <p>Dërgesa në 12 dyqanet tona dhe direkt në kantier sipas nevojës së projektit.</p>
+        </article>
+      </div>
+
+      <div class="services__cta">
+        <a class="btn" href="/v1/#kontakt">Kërko një shërbim</a>
+        <button class="btn btn--ghost-dark js-open-products" type="button">Shiko produktet</button>
+      </div>
+    </section>
+
+    <section class="makers" id="prodhuesit">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Partnerët tanë</p>
+        <h2>Prodhuesit &amp; markat</h2>
+        <p>Bashkëpunojmë me prodhues evropianë për cilësi, inovacion dhe besueshmëri.</p>
+      </div>
+      <div class="partners__grid">
+        <div class="partner-logo"><img src="/assets/partners/siegenia.jpg" alt="Siegenia" /></div>
+        <div class="partner-logo"><img src="/assets/partners/secco.png" alt="Secco" /></div>
+        <div class="partner-logo"><img src="/assets/partners/agb.png" alt="AGB" /></div>
+        <div class="partner-logo"><img src="/assets/partners/soudal.png" alt="Soudal" /></div>
+        <div class="partner-logo"><img src="/assets/partners/master.png" alt="Master" /></div>
+        <div class="partner-logo"><img src="/assets/partners/breda.png" alt="Breda" /></div>
+        <div class="partner-logo"><img src="/assets/partners/sesamo.png" alt="Sesamo" /></div>
+        <div class="partner-logo"><img src="/assets/partners/cisa.png" alt="Cisa" /></div>
+        <div class="partner-logo"><img src="/assets/partners/quiko.png" alt="Quiko" /></div>
+        <div class="partner-logo"><img src="/assets/partners/iseo.jpg" alt="Iseo" /></div>
+        <div class="partner-logo"><img src="/assets/partners/comunello.png" alt="Comunello" /></div>
+        <div class="partner-logo"><img src="/assets/partners/trumpf.png" alt="Trumpf" /></div>
+        <div class="partner-logo"><img src="/assets/partners/okuma.png" alt="Okuma" /></div>
+        <div class="partner-logo"><img src="/assets/partners/mitutoyo.png" alt="Mitutoyo" /></div>
+        <div class="partner-logo"><img src="/assets/partners/defo.jpg" alt="Defo" /></div>
+        <div class="partner-logo"><img src="/assets/partners/opera.png" alt="Opera" /></div>
+        <div class="partner-logo"><img src="/assets/partners/norton.png" alt="Norton" /></div>
+        <div class="partner-logo"><img src="/assets/partners/gemma.jpg" alt="Gemma Group" /></div>
+        <div class="partner-logo"><img src="/assets/partners/tau.jpg" alt="Tau" /></div>
+        <div class="partner-logo"><img src="/assets/partners/padilla.jpg" alt="Padilla" /></div>
+      </div>
+    </section>
+
+    <section class="about" id="rreth">
+      <div class="about__media">
+        <img src="/assets/img/about-company.jpg" alt="Objekti K-AKS" />
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow">Kush jemi</p>
+        <h2>Partner industrial me mbi dy dekada përvojë</h2>
+        <p>
+          Me bazë në Durrës, K-AKS është furnizues dhe prodhues i profilesh alumini, PVC,
+          çeliku dhe aksesorësh industrialë. Nga tregtia me shumicë e pakicë te prodhimi
+          në fabrikë 9,500 m², mbështesim arkitektë, inxhinierë dhe fabriktorë në Shqipëri,
+          Kosovë dhe më gjerë.
+        </p>
+        <a class="btn" href="/v1/rreth-nesh.html">Më shumë rreth nesh</a>
+      </div>
+    </section>
+
+    <section class="shops" id="dyqanet">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Rrjeti ynë</p>
+        <h2>12 dyqane K-AKS</h2>
+        <p>Dyqanet e shitjes me pakicë e shumicë — jo magazina apo fabrika.</p>
+      </div>
+      <div class="shops__grid">
+        <article class="shop">
+          <h3>Tiranë · Laprakë</h3>
+          <p>Rr. Dritan Hoxha, Blloku Gintash</p>
+          <a href="tel:+355692075641">+355 69 207 5641</a>
+        </article>
+        <article class="shop">
+          <h3>Tiranë · Bardhyl</h3>
+          <p>Rruga Bardhyl</p>
+          <a href="tel:+355676027686">+355 67 602 7686</a>
+        </article>
+        <article class="shop">
+          <h3>Tiranë · Unaza e Re</h3>
+          <p>Rr. Theodhor Keko</p>
+          <a href="tel:+355676060698">+355 67 606 0698</a>
+        </article>
+        <article class="shop">
+          <h3>Durrës · Shkozet</h3>
+          <p>Rr. Tirana, Lagjja 14</p>
+          <a href="tel:+355692084357">+355 69 208 4357</a>
+        </article>
+        <article class="shop">
+          <h3>Shkodër</h3>
+          <p>Lagjja Perash</p>
+          <a href="tel:+355692084372">+355 69 208 4372</a>
+        </article>
+        <article class="shop">
+          <h3>Lezhë</h3>
+          <p>Lagjja Shtraus</p>
+          <a href="tel:+355676060693">+355 67 606 0693</a>
+        </article>
+        <article class="shop">
+          <h3>Fier</h3>
+          <p>Lagjja Kryengritja e Fierit</p>
+          <a href="tel:+355682050337">+355 68 205 0337</a>
+        </article>
+        <article class="shop">
+          <h3>Korçë</h3>
+          <p>Rruga Muzaka</p>
+          <a href="tel:+355673952769">+355 67 395 2769</a>
+        </article>
+        <article class="shop">
+          <h3>Vlorë</h3>
+          <p>Rruga Transballkanike</p>
+          <a href="tel:+355682055925">+355 68 205 5925</a>
+        </article>
+        <article class="shop">
+          <h3>Fushë Krujë</h3>
+          <p>Rruga Nacionale</p>
+          <a href="tel:+355676060694">+355 67 606 0694</a>
+        </article>
+        <article class="shop">
+          <h3>Kavajë</h3>
+          <p>Lagjja Lushnjatarëve</p>
+          <a href="tel:+355682002605">+355 68 200 2605</a>
+        </article>
+        <article class="shop">
+          <h3>Fushë Kosovë</h3>
+          <p>Rr. Lidhja e Pejës, Magjistrale</p>
+          <a href="tel:+38349684111">+383 49 684 111</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow">Na shkruani</p>
+          <h2>Kontakt</h2>
+          <p>
+            Për oferta, projekte ose pyetje teknike — dërgoni mesazhin tuaj ose
+            na telefononi në selinë qendrore.
+          </p>
+          <ul class="contact__list">
+            <li>
+              <strong>Adresa</strong>
+              <span>Rr. Dritan Hoxha, Blloku Gintash, Laprakë, Tiranë</span>
+            </li>
+            <li>
+              <strong>Telefon</strong>
+              <a href="tel:+355692075641">+355 69 207 5641</a>
+              <a href="tel:+35544500602">+355 44 500 602</a>
+            </li>
+            <li>
+              <strong>Email</strong>
+              <a href="mailto:info@k-aks.com">info@k-aks.com</a>
+            </li>
+            <li>
+              <strong>Web</strong>
+              <a href="https://www.k-aks.com" target="_blank" rel="noreferrer">www.k-aks.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="contactForm" action="#" method="post">
+          <label>
+            Emri
+            <input type="text" name="name" placeholder="Emri juaj" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="email@shembull.com" required />
+          </label>
+          <label>
+            Telefon
+            <input type="tel" name="phone" placeholder="+355 ..." />
+          </label>
+          <label>
+            Mesazhi
+            <textarea name="message" rows="5" placeholder="Përshkruani çfarë ju duhet..." required></textarea>
+          </label>
+          <button class="btn" type="submit">Dërgo mesazhin</button>
+          <p class="contact__note" id="formNote" hidden>Faleminderit! Mesazhi u regjistrua lokalisht (demo).</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img class="footer__logo" src="/assets/img/logo-footer.svg" alt="K-AKS" />
+      <p>Shaping the future · Që nga 1998</p>
+    </div>
+    <div>
+      <h3>Lidhje</h3>
+      <p><a href="/v1/#produkte">Produktet</a></p>
+      <p><a href="/v1/rreth-nesh.html">Rreth nesh</a></p>
+      <p><a href="/v1/#sherbime">Shërbimet</a></p>
+      <p><a href="/v1/#kontakt">Kontakt</a></p>
+    </div>
+    <div>
+      <h3>Kontakt</h3>
+      <p>info@k-aks.com</p>
+      <p>+355 69 207 5641</p>
+    </div>
+  </footer>
+
+  <script src="/v1/script.js"></script>
+</body>
+</html>

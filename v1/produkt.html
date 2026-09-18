@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-AKS | Produkti</title>
+  <link rel="stylesheet" href="/v1/styles.css" />
+</head>
+<body class="page-inner" data-version="v1" data-page="product">
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar__top">
+      <div>
+        <p class="sidebar__eyebrow">Struktura</p>
+        <h2 class="sidebar__title">Produktet</h2>
+      </div>
+      <button class="sidebar__close" id="closeSidebar" aria-label="Mbyll">×</button>
+    </div>
+    <div class="sidebar__panels">
+      <div class="sidebar__panel is-active">
+        <p class="sidebar__division">Kategoritë</p>
+        <details class="cat" open>
+          <summary>Zgjidh kategorinë</summary>
+          <ul>
+            <li><button type="button" class="cat-link" data-cat="profile-secco">Profile Secco</button></li>
+            <li><button type="button" class="cat-link" data-cat="seria-sa">Seritë SA / OS2</button></li>
+            <li><button type="button" class="cat-link" data-cat="doreza">Doreza</button></li>
+            <li><button type="button" class="cat-link" data-cat="menteshe">Menteshe</button></li>
+            <li><button type="button" class="cat-link" data-cat="brave">Bravë &amp; cilindra</button></li>
+            <li><button type="button" class="cat-link" data-cat="rula">Rula</button></li>
+            <li><button type="button" class="cat-link" data-cat="dyer-industriale">Dyer industriale</button></li>
+            <li><button type="button" class="cat-link" data-cat="barriera">Barriera</button></li>
+            <li><button type="button" class="cat-link" data-cat="persiane">Persiane</button></li>
+            <li><button type="button" class="cat-link" data-cat="cnc">Punime CNC</button></li>
+            <li><button type="button" class="cat-link" data-cat="laser">Prerje me laser</button></li>
+            <li><button type="button" class="cat-link" data-cat="montim">Montim</button></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </aside>
+
+  <header class="header is-solid">
+    <a class="logo" href="/v1/">
+      <img src="/assets/img/logo.svg" alt="K-AKS" />
+    </a>
+    <nav class="nav">
+      <a href="/v1/">Kryefaqja</a>
+      <button class="nav__products" id="openProducts" type="button">Produktet</button>
+      <a href="/v1/#sherbime">Shërbimet</a>
+      <a href="/v1/rreth-nesh.html">Rreth nesh</a>
+      <a href="/v1/#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <div class="catalog-page__inner">
+      <nav class="product-page__crumbs" aria-label="Breadcrumb">
+        <a href="/v1/">Kryefaqja</a>
+        <span>/</span>
+        <a href="/v1/">Produktet</a>
+        <span>/</span>
+        <a id="crumbCat" href="#">Kategoria</a>
+      </nav>
+      <div class="catalog-page__bar">
+        <a class="text-link" id="productBack" href="#">← Kthehu te kategoria</a>
+        <button class="btn btn--small js-open-products" type="button">Ndrysho kategorinë</button>
+      </div>
+      <article class="product-detail">
+        <div class="product-detail__media" id="productMedia"></div>
+        <div class="product-detail__info">
+          <p class="product-detail__cat"><a id="productCatLink" href="#">Kategoria</a></p>
+          <h1 id="productTitle">Produkti</h1>
+          <p id="productInfo" class="product-detail__lead"></p>
+          <ul class="product-detail__specs" id="productSpecs"></ul>
+          <div class="product-detail__actions">
+            <a class="btn" id="productPdf" href="/assets/catalogs/katalog-produkti.pdf" download>Shkarko PDF</a>
+            <a class="btn btn--ghost-dark" href="/v1/#kontakt">Kërko ofertë</a>
+          </div>
+        </div>
+      </article>
+      <section class="product-related">
+        <h2>Produkte të ngjashme</h2>
+        <div class="product-cards product-cards--related" id="relatedGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img src="/assets/img/logo-footer.svg" alt="K-AKS" height="48" />
+      <p>Shaping the future · Që nga 1998</p>
+    </div>
+    <div>
+      <a href="/v1/">Kryefaqja</a>
+      <a href="/v1/#kontakt">Kontakt</a>
+    </div>
+  </footer>
+
+  <script src="/assets/js/catalog-data.js"></script>
+  <script src="/assets/js/catalog-pages.js"></script>
+</body>
+</html>
