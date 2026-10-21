@@ -1562,6 +1562,255 @@ body.sidebar-open .sidebar {
   }
 }
 
+
+/* ——— Services page (v1/sherbimet.html) ——— */
+.page-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.svc-intro {
+  padding: 64px 48px 24px;
+  background: var(--white);
+}
+
+.svc-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 48px 48px;
+  background: var(--white);
+}
+
+.svc-detail--flip {
+  background: var(--bg);
+}
+
+.svc-detail--flip .svc-detail__media {
+  order: 2;
+}
+
+.svc-detail--flip .svc-detail__copy {
+  order: 1;
+}
+
+.svc-detail__media {
+  position: relative;
+  overflow: hidden;
+}
+
+.svc-detail__media img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+.svc-detail__num {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  min-width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  background: var(--navy);
+  color: var(--lime);
+  font-family: "Oxanium", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.svc-detail__copy h2 {
+  margin: 8px 0 14px;
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.15;
+}
+
+.svc-detail__copy > p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.svc-checks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.svc-checks li {
+  position: relative;
+  padding-left: 28px;
+  color: var(--navy);
+  font-size: 15px;
+}
+
+.svc-checks li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 14px;
+  height: 14px;
+  background: var(--lime);
+  clip-path: polygon(14% 44%, 0 65%, 40% 100%, 100% 18%, 82% 0, 38% 62%);
+}
+
+.svc-detail__copy .text-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--navy);
+  font-weight: 600;
+  border-bottom: 1px solid var(--lime);
+}
+
+.svc-detail__copy .text-link:hover {
+  color: var(--lime);
+}
+
+.svc-process {
+  padding: 72px 48px;
+  background: var(--navy);
+  color: var(--white);
+}
+
+.svc-process .section-head h2 {
+  color: var(--white);
+}
+
+.svc-process .section-head p:not(.eyebrow) {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.svc-process__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.svc-process__grid li {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 28px 22px;
+}
+
+.svc-process__grid strong {
+  display: block;
+  color: var(--lime);
+  font-family: "Oxanium", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+}
+
+.svc-process__grid h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: var(--white);
+}
+
+.svc-process__grid p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+}
+
+.factory-services {
+  padding: 80px 48px;
+  background: var(--bg);
+}
+
+.factory-services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.factory-services__grid article {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--lime);
+  padding: 28px 22px;
+}
+
+.factory-services__grid span {
+  display: block;
+  color: var(--lime);
+  font-family: "Oxanium", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.factory-services__grid h3 {
+  margin: 0 0 14px;
+  font-size: 18px;
+}
+
+.factory-services__grid ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.factory-services__grid li {
+  margin: 6px 0;
+}
+
+.nav a[aria-current="page"] {
+  color: var(--lime);
+}
+
+@media (max-width: 1100px) {
+  .factory-services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .svc-process__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 960px) {
+  .svc-detail,
+  .svc-detail--flip {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .svc-detail--flip .svc-detail__media,
+  .svc-detail--flip .svc-detail__copy {
+    order: initial;
+  }
+
+  .svc-detail__media img {
+    height: 240px;
+  }
+
+  .svc-intro,
+  .svc-process,
+  .factory-services {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .svc-process__grid,
+  .factory-services__grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* â€”â€”â€” Category products + product detail pages â€”â€”â€” */
 .catalog-page,
 .product-page {

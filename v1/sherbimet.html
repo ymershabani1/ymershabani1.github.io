@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-AKS | Shërbimet</title>
+  <link rel="stylesheet" href="/v1/styles.css" />
+</head>
+<body class="page-inner">
+  <header class="header is-solid">
+    <a class="logo" href="/v1/">
+      <img src="/assets/img/logo.svg" alt="K-AKS" />
+    </a>
+    <nav class="nav">
+      <a href="/v1/">Kryefaqja</a>
+      <a class="nav__products" href="/v1/">Produktet</a>
+      <a href="/v1/sherbimet.html" aria-current="page">Shërbimet</a>
+      <a href="/v1/rreth-nesh.html">Rreth nesh</a>
+      <a href="/v1/#prodhuesit">Partnerët</a>
+      <a href="/v1/#dyqanet">Dyqanet</a>
+      <a href="/v1/#kontakt">Kontakt</a>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-switch__btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+          <img class="lang-switch__flag" src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" />
+          <span class="lang-switch__code">SQ</span>
+          <span class="lang-switch__caret" aria-hidden="true">▾</span>
+        </button>
+        <ul class="lang-switch__menu" id="langMenu" role="listbox" hidden>
+          <li>
+            <button type="button" class="lang-option is-active" data-lang="sq" data-label="SQ" data-flag="https://flagcdn.com/w40/al.png">
+              <img src="https://flagcdn.com/w40/al.png" alt="" width="20" height="14" /> Shqip
+            </button>
+          </li>
+          <li>
+            <button type="button" class="lang-option" data-lang="it" data-label="IT" data-flag="https://flagcdn.com/w40/it.png">
+              <img src="https://flagcdn.com/w40/it.png" alt="" width="20" height="14" /> Italiano
+            </button>
+          </li>
+          <li>
+            <button type="button" class="lang-option" data-lang="en" data-label="EN" data-flag="https://flagcdn.com/w40/us.png">
+              <img src="https://flagcdn.com/w40/us.png" alt="" width="20" height="14" /> English
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__copy">
+        <p class="eyebrow">Shërbimet</p>
+        <h1>Nga ideja te montimi — mbështetje e plotë</h1>
+        <p class="lead">
+          Ekipi K-AKS ju ndihmon në çdo fazë: konsulencë, projektim, prodhim në fabrikë,
+          montim në terren, mirëmbajtje dhe logjistikë — në Shqipëri, Kosovë dhe më gjerë.
+        </p>
+        <div class="page-hero__actions">
+          <a class="btn" href="/v1/#kontakt">Kërko një shërbim</a>
+          <a class="btn btn--ghost-dark" href="#fabrika">Shërbimet e fabrikës</a>
+        </div>
+      </div>
+      <div class="page-hero__media">
+        <img src="/assets/img/factory-interior.jpg" alt="Prodhim dhe shërbime në fabrikën K-AKS" />
+      </div>
+    </section>
+
+    <section class="svc-intro">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Çfarë ofrojmë</p>
+        <h2>Gjashtë shërbime kryesore</h2>
+        <p>
+          Një zinxhir i plotë shërbimesh për arkitektë, inxhinierë, fabriktorë dhe
+          investitorë — me të njëjtin standard cilësie nga tregtia te fabrika.
+        </p>
+      </div>
+    </section>
+
+    <section class="svc-detail" id="konsulence">
+      <div class="svc-detail__media">
+        <img src="/assets/img/feature-profiles.jpg" alt="Konsulencë teknike për profile dhe sisteme" />
+        <span class="svc-detail__num">01</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Konsulencë</p>
+        <h2>Konsulencë teknike</h2>
+        <p>
+          Ndihmë e specializuar për zgjedhjen e profilesh, aksesorëve dhe sistemeve
+          sipas projektit tuaj — që nga faza e hershme e projektimit.
+        </p>
+        <ul class="svc-checks">
+          <li>Rekomandim profilesh alumini, PVC dhe çeliku</li>
+          <li>Përputhje aksesorësh Siegenia, AGB dhe marka partnere</li>
+          <li>Orientim për standarde, izolim dhe siguri</li>
+          <li>Mbështetje për oferta dhe specifikime teknike</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="svc-detail svc-detail--flip" id="projektim">
+      <div class="svc-detail__media">
+        <img src="/assets/img/hero-slide-1.jpg" alt="Projektim dhe matje në objekt" />
+        <span class="svc-detail__num">02</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Projektim</p>
+        <h2>Projektim &amp; matje</h2>
+        <p>
+          Matje në objekt, skicime dhe specifikime teknike për dyer, dritare, fasada
+          dhe zgjidhje industriale — me saktësi që kursen kohë në montim.
+        </p>
+        <ul class="svc-checks">
+          <li>Matje profesionale në kantier ose objekt</li>
+          <li>Skicime dhe përgatitje dokumentacioni</li>
+          <li>Specifikime për dyer, dritare e fasada</li>
+          <li>Koordinim me arkitektë dhe kontraktorë</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="svc-detail" id="prodhim">
+      <div class="svc-detail__media">
+        <img src="/assets/img/feature-production.jpg" alt="Prodhim në fabrikën K-AKS" />
+        <span class="svc-detail__num">03</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Fabrikë</p>
+        <h2>Prodhim në fabrikë</h2>
+        <p>
+          Në 9,500 m² kapacitet prodhimi ofrojmë CNC, stampim, karpenteri metalike
+          dhe trajtime sipërfaqesh — me kontroll të plotë mbi cilësinë.
+        </p>
+        <ul class="svc-checks">
+          <li>Punime CNC frezë / torno dhe precizion</li>
+          <li>Stampim metalesh dhe stampa injeksioni</li>
+          <li>Konstruksione metalike dhe prerje laser 6000W</li>
+          <li>Veshje, anodizim dhe lyerje sipërfaqesh</li>
+        </ul>
+        <a class="text-link" href="#fabrika">Shiko të gjitha shërbimet e fabrikës →</a>
+      </div>
+    </section>
+
+    <section class="svc-detail svc-detail--flip" id="montim">
+      <div class="svc-detail__media">
+        <img src="/assets/img/metalwork.jpg" alt="Montim në terren nga ekipi K-AKS" />
+        <span class="svc-detail__num">04</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Montim</p>
+        <h2>Montim në terren</h2>
+        <p>
+          Montim profilesh dhe sistemesh te klienti, me ekip profesional në të gjithë
+          rajonin — shpejt, saktë dhe sipas specifikimeve të projektit.
+        </p>
+        <ul class="svc-checks">
+          <li>Montim dyer, dritare dhe sisteme fasade</li>
+          <li>Instalim aksesorësh dhe mekanizmash</li>
+          <li>Ekip i trajnuar për objekte residenciale e industriale</li>
+          <li>Mbështetje pas dorëzimit</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="svc-detail" id="mirembajtje">
+      <div class="svc-detail__media">
+        <img src="/assets/img/tile-accessories.jpg" alt="Mirëmbajtje dhe pjesë këmbimi" />
+        <span class="svc-detail__num">05</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Mirëmbajtje</p>
+        <h2>Mirëmbajtje &amp; pjesë këmbimi</h2>
+        <p>
+          Furnizim me aksesorë, bravë, motorë dhe pjesë këmbimi për sistemet ekzistuese —
+          që projekti juaj të vazhdojë të funksionojë pa ndërprerje.
+        </p>
+        <ul class="svc-checks">
+          <li>Pjesë këmbimi për dyer e dritare</li>
+          <li>Bravë, cilindra, motorë dhe aksesorë</li>
+          <li>Zëvendësim komponentësh të konsumuar</li>
+          <li>Këshillim për mirëmbajtje periodike</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="svc-detail svc-detail--flip" id="transport">
+      <div class="svc-detail__media">
+        <img src="/assets/img/facility.jpg" alt="Transport dhe logjistikë K-AKS" />
+        <span class="svc-detail__num">06</span>
+      </div>
+      <div class="svc-detail__copy">
+        <p class="eyebrow">Logjistikë</p>
+        <h2>Transport &amp; logjistikë</h2>
+        <p>
+          Dërgesa në 12 dyqanet tona dhe direkt në kantier sipas nevojës së projektit —
+          me koordinim të qartë të afateve dhe sasisë.
+        </p>
+        <ul class="svc-checks">
+          <li>Furnizim në rrjetin e 12 dyqaneve</li>
+          <li>Dërgesa direkte në kantier</li>
+          <li>Koordinim sasisë dhe afateve</li>
+          <li>Mbështetje për projekte në Shqipëri e Kosovë</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="svc-process">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Si punojmë</p>
+        <h2>Një proces i qartë, katër hapa</h2>
+      </div>
+      <ol class="svc-process__grid">
+        <li>
+          <strong>01</strong>
+          <h3>Kontakti</h3>
+          <p>Na shkruani ose telefononi me kërkesën e projektit.</p>
+        </li>
+        <li>
+          <strong>02</strong>
+          <h3>Analiza</h3>
+          <p>Konsulencë, matje dhe specifikime sipas nevojës suaj.</p>
+        </li>
+        <li>
+          <strong>03</strong>
+          <h3>Prodhimi</h3>
+          <p>Përgatitje, prodhim ose furnizim nga stoku dhe partnerët.</p>
+        </li>
+        <li>
+          <strong>04</strong>
+          <h3>Dorëzimi</h3>
+          <p>Transport, montim dhe mbështetje pas instalimit.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="factory-services" id="fabrika">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Fabrikë 9,500 m²</p>
+        <h2>Prodhim &amp; shërbime të fabrikës</h2>
+        <p>
+          Kapacitete industriale për precizion, stampim, karpenteri dhe trajtime
+          sipërfaqesh — plus montim &amp; konsulencë teknike.
+        </p>
+      </div>
+
+      <div class="factory-services__grid">
+        <article>
+          <span>01</span>
+          <h3>Teknologji mekanike &amp; precizion</h3>
+          <ul>
+            <li>Punime CNC frezë / torno</li>
+            <li>EDM &amp; retifikime</li>
+            <li>Sallë metrologjike</li>
+          </ul>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Stampimi i metaleve</h3>
+          <ul>
+            <li>Stampimi i metaleve në precizion</li>
+          </ul>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Stampa injeksioni &amp; ekstruzioni</h3>
+          <ul>
+            <li>Stampa injeksioni &amp; ekstruzioni</li>
+          </ul>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Karpenteria</h3>
+          <ul>
+            <li>Konstruksione metalike</li>
+            <li>Prerje me laser 6000W</li>
+          </ul>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>Trajtime sipërfaqesh</h3>
+          <ul>
+            <li>Veshje, anodizim, lyerje</li>
+          </ul>
+        </article>
+        <article>
+          <span>06</span>
+          <h3>Shërbim montimi</h3>
+          <ul>
+            <li>Montim &amp; konsulencë teknike</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-facts">
+      <div>
+        <strong>4000+</strong>
+        <span>Produkte në tregti</span>
+      </div>
+      <div>
+        <strong>9500 m²</strong>
+        <span>Fabrikë prodhimi</span>
+      </div>
+      <div>
+        <strong>12</strong>
+        <span>Dyqane</span>
+      </div>
+      <div>
+        <strong>25+</strong>
+        <span>Vite përvojë</span>
+      </div>
+    </section>
+
+    <section class="about-cta">
+      <h2>Keni një projekt në mendje?</h2>
+      <p>
+        Na tregoni çfarë ju duhet — konsulencë, prodhim, montim ose furnizim —
+        dhe ju kthejmë me një përgjigje konkrete.
+      </p>
+      <div class="about-cta__actions">
+        <a class="btn" href="/v1/#kontakt">Na kontaktoni</a>
+        <a class="btn btn--ghost-dark" href="/v1/">Shiko produktet</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img class="footer__logo" src="/assets/img/logo-footer.svg" alt="K-AKS" />
+      <p>Shaping the future · Që nga 1998</p>
+    </div>
+    <div>
+      <h3>Lidhje</h3>
+      <p><a href="/v1/">Kryefaqja</a></p>
+      <p><a href="/v1/sherbimet.html">Shërbimet</a></p>
+      <p><a href="/v1/rreth-nesh.html">Rreth nesh</a></p>
+      <p><a href="/v1/#kontakt">Kontakt</a></p>
+    </div>
+    <div>
+      <h3>Kontakt</h3>
+      <p>info@k-aks.com</p>
+      <p>+355 69 207 5641</p>
+    </div>
+  </footer>
+  <script src="/v1/script.js"></script>
+</body>
+</html>
