@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T9c7,Datenschutzerklärung | Instaconstruct GmbH
+Datenschutzerklärung
+Stand: 25. März 2026
+
+1. Verantwortlicher
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Deutschland
+
+E-Mail: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+2. Allgemeine Hinweise zur Datenverarbeitung
+Wir verarbeiten personenbezogene Daten gemäß den gesetzlichen Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO).
+
+3. Zugriffsdaten (Server-Logfiles)
+Beim Besuch unserer Website werden automatisch Informationen erfasst:
+- IP-Adresse
+- Browsertyp und Version
+- Betriebssystem
+- Referrer URL
+- Uhrzeit der Anfrage
+
+Diese Daten dienen der technischen Sicherheit und Stabilität der Website. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+
+4. Hosting
+Unsere Website wird bei Hostinger gehostet. Dabei können personenbezogene Daten auf den Servern des Hosting-Anbieters verarbeitet werden.
+
+5. Kontaktformular
+Wenn Sie uns über das Kontaktformular kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, E-Mail, Nachricht) zur Bearbeitung Ihrer Anfrage.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO.
+
+6. Cookies
+Unsere Website verwendet Cookies. Dabei handelt es sich um kleine Textdateien, die auf Ihrem Endgerät gespeichert werden.
+
+Technisch notwendige Cookies sind erforderlich für den Betrieb der Website. Andere Cookies (z. B. Analyse-Cookies) werden nur mit Ihrer Einwilligung gesetzt.
+
+7. Google Analytics
+Diese Website nutzt Google Analytics, einen Webanalysedienst von Google. Google Analytics verwendet Cookies, die eine Analyse Ihrer Nutzung ermöglichen.
+
+Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+
+Wir haben die IP-Anonymisierung aktiviert.
+
+8. Speicherdauer
+Personenbezogene Daten werden nur so lange gespeichert, wie es für den jeweiligen Zweck erforderlich ist.
+
+9. Ihre Rechte
+Sie haben folgende Rechte:
+- Auskunft (Art. 15 DSGVO)
+- Berichtigung (Art. 16 DSGVO)
+- Löschung (Art. 17 DSGVO)
+- Einschränkung der Verarbeitung (Art. 18 DSGVO)
+- Datenübertragbarkeit (Art. 20 DSGVO)
+- Widerspruch (Art. 21 DSGVO)
+
+10. Beschwerderecht
+Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
+
+11. SSL-/TLS-Verschlüsselung
+Diese Seite nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung.
+
+12. Zukünftige Einbindungen
+Sollten wir künftig Dienste wie Google Maps oder YouTube einbinden, werden diese ebenfalls datenschutzkonform integriert.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Datenschutzerklärung"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null

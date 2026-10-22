@@ -1,0 +1,76 @@
+1:"$Sreact.fragment"
+4:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:Tbbb,Conditions générales (CGV)
+Mise à jour : 25 mars 2026
+
+Ces conditions générales régissent l’utilisation du site web d’Instaconstruct GmbH. En accédant à ce site, vous acceptez ces conditions.
+
+1. Informations sur le prestataire
+Instaconstruct GmbH, Denkmalstraße 20, Fürth, Allemagne
+Registre du commerce : HRB 800755
+N° de TVA intracommunautaire : DE459015702
+Numéro fiscal : 00523610444
+Gérant : Sascha Jäger
+E-mail : info@instaconstruct.de
+Téléphone : +49 1515 6198441
+
+2. Champ d’application
+Ces conditions s’appliquent uniquement à l’utilisation du site web et aux informations générales et options de contact qui y sont publiées.
+
+3. Contenu du site
+Le contenu est fourni à titre informatif uniquement et peut être modifié à tout moment, sauf stipulation contraire dans un contrat écrit.
+
+4. Absence de conseil
+Le contenu du site ne constitue pas un conseil juridique, architectural, technique, fiscal ou financier.
+
+5. Utilisation du site
+L’utilisation du site doit rester conforme à la loi. Toute tentative d’accès non autorisé, diffusion de logiciels malveillants, extraction automatisée de données sans autorisation ou usurpation d’identité est interdite.
+
+6. Prise de contact
+Une demande via le site n’établit pas de relation contractuelle.
+
+7. Offres et conclusion de contrat
+Les demandes, estimations et propositions sont non contraignantes, sauf mention expresse du contraire. Un contrat n’est conclu que par accord écrit séparé ou confirmation de commande écrite.
+
+8. Prix et disponibilité
+Les prix ou exemples affichés sont indicatifs. Les prix finaux dépendent du périmètre, du site, des spécifications, du transport, des autorisations et d’autres facteurs de projet.
+
+9. Propriété intellectuelle
+Tous les contenus (textes, images, graphiques, logos, plans, designs) sont protégés par le droit d’auteur.
+
+10. Liens externes
+Nous ne sommes pas responsables du contenu des sites externes liés.
+
+11. Disponibilité
+La disponibilité continue du site n’est pas garantie.
+
+12. Responsabilité
+La responsabilité est régie par la loi applicable ; en cas de négligence simple, uniquement pour les obligations essentielles et limitée aux dommages prévisibles.
+
+13. Droits des consommateurs
+Les droits impératifs des consommateurs restent inchangés.
+
+14. Protection des données
+Consultez notre politique de confidentialité.
+
+15. Clause salvatrice
+Si une disposition est invalide, les autres dispositions restent en vigueur.
+
+16. Droit applicable
+Le droit allemand s’applique, à l’exclusion de la CVIM (CISG), dans la mesure permise par la loi.
+
+17. Juridiction compétente
+Pour les commerçants et entités de droit public, Fürth est la juridiction compétente.
+
+18. Modifications
+Nous pouvons modifier ces conditions à tout moment.
+
+19. Contact
+Instaconstruct GmbH
+E-mail : info@instaconstruct.de
+Téléphone : +49 1515 6198441
+
+Note : Cette traduction est non contraignante. La version allemande fait foi.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Conditions générales"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

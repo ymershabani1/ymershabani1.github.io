@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+4:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+2:T15db,Allgemeine Geschäftsbedingungen (AGB)
+Stand: 25. März 2026
+
+Diese Allgemeinen Geschäftsbedingungen („AGB“) regeln die Nutzung der Website der Instaconstruct GmbH („Instaconstruct“, „wir“, „uns“). Durch den Zugriff auf diese Website erklären Sie sich mit diesen AGB einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie die Website bitte nicht.
+
+1. Anbieterkennzeichnung
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Deutschland
+
+Eingetragen im Handelsregister
+Handelsregisternummer: HRB 800755
+USt-IdNr.: DE459015702
+Steuernummer: 00523610444
+
+Geschäftsführer: Sascha Jäger
+
+E-Mail: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+2. Geltungsbereich
+Diese AGB gelten ausschließlich für die Nutzung dieser Website sowie für allgemeine Informationen und Kontaktmöglichkeiten, die über diese Website bereitgestellt werden.
+
+Die Inhalte dieser Website stellen kein rechtlich bindendes Angebot zum Abschluss eines Vertrages dar, sofern nicht ausdrücklich etwas anderes schriftlich vereinbart wurde.
+
+Verträge über den Verkauf von Fertighäusern, Modulhäusern, Baumaterialien, Sanierungen, Projektsteuerung oder Generalunternehmerleistungen kommen ausschließlich durch gesonderte schriftliche Vereinbarungen, Angebote oder Auftragsbestätigungen zustande.
+
+3. Inhalte der Website
+Die Inhalte dieser Website dienen ausschließlich allgemeinen Informationszwecken. Wir bemühen uns, die Informationen aktuell und korrekt zu halten, übernehmen jedoch keine Gewähr für die Vollständigkeit, Richtigkeit oder Aktualität.
+
+Insbesondere sind Abbildungen, Visualisierungen, Grundrisse, technische Angaben, Maße, Ausstattungsdetails sowie Projektbeispiele unverbindlich und können jederzeit geändert werden, sofern sie nicht ausdrücklich Bestandteil eines schriftlichen Vertrages sind.
+
+4. Keine Beratung
+Die Inhalte dieser Website stellen keine rechtliche, technische, architektonische, steuerliche oder finanzielle Beratung dar.
+
+Projektbezogene Angaben, insbesondere zu Machbarkeit, Preisen, Zeitplänen oder Genehmigungen, hängen von individuellen Umständen und gesonderten vertraglichen Vereinbarungen ab.
+
+5. Nutzung der Website
+Bei der Nutzung dieser Website verpflichten Sie sich, ausschließlich rechtmäßige Zwecke zu verfolgen und keine Rechte Dritter zu verletzen.
+
+Es ist insbesondere untersagt:
+- gegen geltende Gesetze oder Vorschriften zu verstoßen;
+- unbefugten Zugriff auf Systeme oder Daten zu versuchen;
+- Schadsoftware oder sonstige schädliche Inhalte zu verbreiten;
+- Daten automatisiert auszulesen oder zu sammeln ohne unsere Zustimmung;
+- falsche Angaben zur eigenen Identität zu machen.
+
+6. Kontaktaufnahme
+Bei Kontaktaufnahme über diese Website, per E-Mail oder telefonisch verpflichten Sie sich, zutreffende und vollständige Angaben zu machen.
+
+Durch eine Anfrage entsteht kein Vertragsverhältnis und kein Anspruch auf Abschluss eines Vertrages.
+
+7. Angebote und Vertragsschluss
+Anfragen über diese Website sind unverbindlich.
+
+Angebote, Kostenschätzungen oder Projektvorschläge sind ebenfalls unverbindlich, sofern sie nicht ausdrücklich als verbindlich gekennzeichnet sind.
+
+Ein Vertrag kommt erst durch eine separate schriftliche Vereinbarung oder eine schriftliche Auftragsbestätigung zustande.
+
+8. Preise und Verfügbarkeit
+Auf der Website dargestellte Preise oder Kostenbeispiele dienen lediglich der Orientierung und sind unverbindlich.
+
+Tatsächliche Preise hängen von verschiedenen Faktoren ab, insbesondere Umfang, Standort, Ausstattung, Transport, Genehmigungen und weiteren projektspezifischen Bedingungen.
+
+Wir behalten uns vor, Inhalte, Produkte oder Leistungen jederzeit zu ändern oder einzustellen.
+
+9. Urheberrechte
+Sämtliche Inhalte dieser Website, einschließlich Texte, Bilder, Grafiken, Logos, Designs und Pläne, sind urheberrechtlich geschützt und Eigentum der Instaconstruct GmbH oder entsprechend lizenziert.
+
+Die Nutzung ist ausschließlich für private, nicht-kommerzielle Zwecke gestattet. Jede darüber hinausgehende Nutzung bedarf unserer vorherigen schriftlichen Zustimmung.
+
+10. Externe Links
+Diese Website kann Links zu externen Websites enthalten. Für deren Inhalte übernehmen wir keine Verantwortung.
+
+11. Verfügbarkeit der Website
+Wir übernehmen keine Gewähr für eine ununterbrochene Verfügbarkeit der Website. Änderungen oder Einschränkungen können jederzeit erfolgen.
+
+12. Haftung
+Wir haften nach den gesetzlichen Vorschriften für Vorsatz und grobe Fahrlässigkeit.
+
+Bei einfacher Fahrlässigkeit haften wir nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) und begrenzt auf den vorhersehbaren Schaden.
+
+Die Haftung für Schäden aus der Verletzung von Leben, Körper oder Gesundheit bleibt unberührt.
+
+13. Verbraucherschutz
+Zwingende gesetzliche Verbraucherrechte bleiben unberührt.
+
+14. Datenschutz
+Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung.
+
+15. Salvatorische Klausel
+Sollten einzelne Bestimmungen dieser AGB ganz oder teilweise unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
+
+16. Anwendbares Recht
+Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG), soweit gesetzlich zulässig.
+
+17. Gerichtsstand
+Sofern der Nutzer Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen ist, ist Fürth Gerichtsstand.
+
+18. Änderungen der AGB
+Wir behalten uns vor, diese AGB jederzeit zu ändern.
+
+19. Kontakt
+Instaconstruct GmbH
+E-Mail: info@instaconstruct.de
+Telefon: +49 1515 61984410:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Allgemeine Geschäftsbedingungen"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,"$L3"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+3:["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]
+6:null

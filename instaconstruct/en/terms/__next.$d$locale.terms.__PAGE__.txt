@@ -1,0 +1,75 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:Ta06,General Terms and Conditions (GTC)
+As of: 25 March 2026
+
+These General Terms and Conditions govern the use of the Instaconstruct GmbH website. By accessing this website, you agree to these terms.
+
+1. Provider Information
+Instaconstruct GmbH, Denkmalstraße 20, Fürth, Germany
+Commercial Register: HRB 800755
+VAT ID: DE459015702
+Tax Number: 00523610444
+Managing Director: Sascha Jäger
+Email: info@instaconstruct.de
+Phone: +49 1515 6198441
+
+2. Scope
+These terms apply only to use of this website and to general information and contact options provided on it.
+
+3. Website Content
+All website content is for general information only and may be changed at any time unless expressly part of a written contract.
+
+4. No Advice
+Content does not constitute legal, architectural, technical, tax, or financial advice.
+
+5. Website Use
+You must use the website lawfully and must not attempt unauthorized access, spread malicious software, scrape data without consent, or provide false identity information.
+
+6. Contact Requests
+Submitting inquiries does not create a contract or entitlement to conclude one.
+
+7. Offers and Contract Formation
+Requests, estimates, and proposals are non-binding unless explicitly marked binding. Contracts arise only through separate written agreement or written order confirmation.
+
+8. Prices and Availability
+Any prices or examples are indicative only. Final pricing depends on scope, location, specifications, transport, permits, and project-specific factors.
+
+9. Intellectual Property
+All texts, images, graphics, logos, designs, and plans are protected by copyright and owned by Instaconstruct GmbH or licensed accordingly.
+
+10. External Links
+We assume no responsibility for external linked content.
+
+11. Availability
+Continuous website availability is not guaranteed.
+
+12. Liability
+Liability is governed by statutory law; for slight negligence only in case of breach of essential obligations and limited to foreseeable damages.
+
+13. Consumer Rights
+Mandatory statutory consumer rights remain unaffected.
+
+14. Data Protection
+See our Privacy Policy.
+
+15. Severability
+If any clause is invalid, the remaining provisions remain effective.
+
+16. Applicable Law
+German law applies, excluding CISG where legally permissible.
+
+17. Place of Jurisdiction
+For merchants and public-law entities, Fürth is the place of jurisdiction.
+
+18. Changes
+We may amend these terms at any time.
+
+19. Contact
+Instaconstruct GmbH
+Email: info@instaconstruct.de
+Phone: +49 1515 6198441
+
+Note: This is a non-binding translation. The German version is legally binding.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"General Terms and Conditions"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null

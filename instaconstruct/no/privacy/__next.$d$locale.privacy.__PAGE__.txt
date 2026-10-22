@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T6ad,Personvernerklæring | Instaconstruct GmbH
+Sist oppdatert: 25. mars 2026
+
+1. Behandlingsansvarlig
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Tyskland
+E-post: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+2. Generell informasjon om behandling
+Vi behandler personopplysninger i samsvar med gjeldende personvernlovgivning, særlig GDPR.
+
+3. Tilgangsdata (serverlogger)
+Ved besøk på nettstedet kan tekniske data registreres automatisk (IP-adresse, nettleser, operativsystem, henvisnings-URL, tidspunkt) for sikkerhet og teknisk stabilitet (art. 6(1)(f) GDPR).
+
+4. Hosting
+Nettstedet er hostet hos Hostinger. Personopplysninger kan behandles på leverandørens servere.
+
+5. Kontaktskjema
+Når du kontakter oss, behandler vi opplysninger (f.eks. navn, e-post, melding) for å håndtere henvendelsen (art. 6(1)(b), art. 6(1)(f) GDPR).
+
+6. Informasjonskapsler
+Vi bruker cookies. Teknisk nødvendige cookies er påkrevd for drift. Andre cookies (f.eks. analyse) settes kun med ditt samtykke.
+
+7. Google Analytics
+Google Analytics brukes kun med samtykke (art. 6(1)(a) GDPR). IP-anonymisering er aktivert.
+
+8. Lagringstid
+Personopplysninger lagres bare så lenge det er nødvendig for formålet.
+
+9. Dine rettigheter
+Du har rett til innsyn, retting, sletting, begrensning, dataportabilitet og innsigelse (art. 15-21 GDPR).
+
+10. Klagerett
+Du kan klage til relevant tilsynsmyndighet for personvern.
+
+11. SSL/TLS-kryptering
+Dette nettstedet bruker SSL/TLS-kryptering av sikkerhetshensyn.
+
+12. Fremtidige integrasjoner
+Dersom tjenester som Google Maps eller YouTube integreres senere, vil de implementeres personvernmessig forsvarlig.
+
+Merk: Denne oversettelsen er ikke bindende. Tysk versjon er juridisk gjeldende.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Personvernerklæring"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null

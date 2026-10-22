@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T6e3,Integritetspolicy | Instaconstruct GmbH
+Senast uppdaterad: 25 mars 2026
+
+1. Personuppgiftsansvarig
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Tyskland
+E-post: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+2. Allmän information om behandling
+Vi behandlar personuppgifter i enlighet med tillämplig dataskyddslagstiftning, särskilt GDPR.
+
+3. Åtkomstdata (serverloggar)
+Vid besök på webbplatsen kan tekniska uppgifter samlas in automatiskt (IP-adress, webbläsare, operativsystem, referrer-URL, tidpunkt för förfrågan) för säkerhet och teknisk stabilitet (art. 6(1)(f) GDPR).
+
+4. Hosting
+Webbplatsen hostas hos Hostinger. Personuppgifter kan behandlas på hostingleverantörens servrar.
+
+5. Kontaktformulär
+När du kontaktar oss behandlar vi uppgifter (t.ex. namn, e-post, meddelande) för att hantera din förfrågan (art. 6(1)(b), art. 6(1)(f) GDPR).
+
+6. Cookies
+Vi använder cookies. Tekniskt nödvändiga cookies krävs för drift. Andra cookies (t.ex. analyscookies) sätts endast med ditt samtycke.
+
+7. Google Analytics
+Google Analytics används endast med samtycke (art. 6(1)(a) GDPR). IP-anonymisering är aktiverad.
+
+8. Lagringstid
+Personuppgifter lagras endast så länge som krävs för ändamålet.
+
+9. Dina rättigheter
+Du har rätt till tillgång, rättelse, radering, begränsning, dataportabilitet och invändning (art. 15-21 GDPR).
+
+10. Klagorätt
+Du har rätt att lämna klagomål till tillsynsmyndighet.
+
+11. SSL/TLS-kryptering
+Denna webbplats använder SSL/TLS-kryptering av säkerhetsskäl.
+
+12. Framtida integrationer
+Om tjänster som Google Maps eller YouTube integreras i framtiden kommer de att implementeras i enlighet med dataskyddskraven.
+
+Obs: Denna översättning är inte bindande. Tysk version är juridiskt bindande.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Integritetspolicy"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null
