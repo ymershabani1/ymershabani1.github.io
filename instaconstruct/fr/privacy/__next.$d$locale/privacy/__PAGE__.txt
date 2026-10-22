@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T818,Politique de confidentialité | Instaconstruct GmbH
+Mise à jour : 25 mars 2026
+
+1. Responsable du traitement
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Allemagne
+E-mail : info@instaconstruct.de
+Téléphone : +49 1515 6198441
+
+2. Informations générales
+Nous traitons les données personnelles conformément aux lois applicables, notamment au RGPD.
+
+3. Données d’accès (journaux serveur)
+Lors de la visite du site, des données techniques peuvent être collectées automatiquement (adresse IP, navigateur, système d’exploitation, URL de référence, heure de la requête) pour la sécurité et la stabilité technique (art. 6(1)(f) RGPD).
+
+4. Hébergement
+Notre site est hébergé chez Hostinger. Des données personnelles peuvent être traitées sur les serveurs de l’hébergeur.
+
+5. Formulaire de contact
+Lorsque vous nous contactez, nous traitons vos données (par ex. nom, e-mail, message) pour répondre à votre demande (art. 6(1)(b), art. 6(1)(f) RGPD).
+
+6. Cookies
+Nous utilisons des cookies. Les cookies techniquement nécessaires sont indispensables au fonctionnement. Les autres cookies (p. ex. analyse) ne sont déposés qu’avec votre consentement.
+
+7. Google Analytics
+Google Analytics est utilisé uniquement sur la base de votre consentement (art. 6(1)(a) RGPD). L’anonymisation IP est activée.
+
+8. Durée de conservation
+Les données personnelles sont conservées uniquement pendant la durée nécessaire à la finalité du traitement.
+
+9. Vos droits
+Vous disposez de droits d’accès, de rectification, d’effacement, de limitation, de portabilité et d’opposition (art. 15-21 RGPD).
+
+10. Droit de réclamation
+Vous pouvez introduire une réclamation auprès d’une autorité de contrôle.
+
+11. Chiffrement SSL/TLS
+Ce site utilise un chiffrement SSL/TLS pour des raisons de sécurité.
+
+12. Intégrations futures
+Si des services comme Google Maps ou YouTube sont intégrés à l’avenir, ils le seront de manière conforme à la protection des données.
+
+Note : Cette traduction est non contraignante. La version allemande fait foi.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Politique de confidentialité"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null

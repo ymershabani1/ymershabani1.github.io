@@ -1,0 +1,75 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T9f8,Allmänna villkor
+Senast uppdaterad: 25 mars 2026
+
+Dessa villkor reglerar användningen av Instaconstruct GmbH:s webbplats. Genom att använda webbplatsen accepterar du villkoren.
+
+1. Leverantörsinformation
+Instaconstruct GmbH, Denkmalstraße 20, Fürth, Tyskland
+Handelsregister: HRB 800755
+Momsregistreringsnummer: DE459015702
+Skattenummer: 00523610444
+Verkställande direktör: Sascha Jäger
+E-post: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+2. Tillämpningsområde
+Villkoren gäller endast användning av webbplatsen samt allmän information och kontaktmöjligheter.
+
+3. Webbplatsens innehåll
+Innehållet är endast informativt och kan ändras när som helst om inget annat skriftligen avtalats.
+
+4. Ingen rådgivning
+Innehållet utgör inte juridisk, teknisk, arkitektonisk, skatte- eller finansiell rådgivning.
+
+5. Användning av webbplatsen
+Användning ska ske lagligt. Obehörig åtkomst, skadlig kod, automatiserad datainsamling utan samtycke eller falsk identitet är förbjudet.
+
+6. Kontakt
+Förfrågningar via webbplatsen skapar inget avtalsförhållande.
+
+7. Erbjudanden och avtal
+Förfrågningar, uppskattningar och förslag är inte bindande om de inte uttryckligen anges som bindande. Avtal uppstår endast genom separat skriftligt avtal eller skriftlig orderbekräftelse.
+
+8. Priser och tillgänglighet
+Angivna priser eller exempel är vägledande. Slutligt pris beror på omfattning, plats, specifikationer, transport, tillstånd och projektförutsättningar.
+
+9. Upphovsrätt
+Allt innehåll (texter, bilder, grafik, logotyper, design, ritningar) är upphovsrättsligt skyddat.
+
+10. Externa länkar
+Vi ansvarar inte för innehåll på externa webbplatser.
+
+11. Tillgänglighet
+Kontinuerlig tillgänglighet av webbplatsen garanteras inte.
+
+12. Ansvar
+Ansvar regleras av tillämplig lag; vid enkel vårdslöshet endast vid brott mot väsentliga skyldigheter och begränsat till förutsebar skada.
+
+13. Konsumenträtt
+Tvingande konsumenträttsliga regler påverkas inte.
+
+14. Dataskydd
+Se vår integritetspolicy.
+
+15. Ogiltighet
+Om en bestämmelse är ogiltig påverkas inte övriga bestämmelser.
+
+16. Tillämplig lag
+Tysk lag gäller, med undantag för CISG, i den mån lagen tillåter.
+
+17. Behörig domstol
+För näringsidkare och offentliga juridiska personer är Fürth behörig domstol.
+
+18. Ändringar
+Vi kan när som helst ändra dessa villkor.
+
+19. Kontakt
+Instaconstruct GmbH
+E-post: info@instaconstruct.de
+Telefon: +49 1515 6198441
+
+Obs: Denna översättning är inte bindande. Tysk version är juridiskt bindande.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Allmänna villkor"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null

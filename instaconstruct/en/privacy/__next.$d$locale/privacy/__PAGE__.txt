@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+3:I[97367,["/instaconstruct/_next/static/chunks/01xlw8hd842-c.js","/instaconstruct/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+2:T6bc,Privacy Policy | Instaconstruct GmbH
+As of: 25 March 2026
+
+1. Controller
+Instaconstruct GmbH
+Denkmalstraße 20
+Fürth
+Germany
+Email: info@instaconstruct.de
+Phone: +49 1515 6198441
+
+2. General Information on Data Processing
+We process personal data in accordance with applicable data protection laws, in particular the GDPR.
+
+3. Access Data (Server Log Files)
+When visiting the website, data such as IP address, browser information, operating system, referrer URL, and request time may be collected automatically for security and technical stability (Art. 6(1)(f) GDPR).
+
+4. Hosting
+Our website is hosted by Hostinger. Personal data may be processed on host provider servers.
+
+5. Contact Form
+When you contact us, we process your data (e.g. name, email, message) to handle your request (Art. 6(1)(b), Art. 6(1)(f) GDPR).
+
+6. Cookies
+We use cookies. Technically necessary cookies are required for operation. Other cookies (e.g. analytics) are set only with consent.
+
+7. Google Analytics
+We use Google Analytics only based on your consent (Art. 6(1)(a) GDPR). IP anonymization is enabled.
+
+8. Retention Period
+Personal data is stored only as long as required for the purpose.
+
+9. Your Rights
+You have rights to access, rectification, erasure, restriction, data portability, and objection (Art. 15-21 GDPR).
+
+10. Right to Lodge a Complaint
+You may file a complaint with a supervisory data protection authority.
+
+11. SSL/TLS Encryption
+This website uses SSL/TLS encryption for security.
+
+12. Future Integrations
+If services such as Google Maps or YouTube are integrated in the future, they will be implemented in a data protection compliant manner.
+
+Note: This is a non-binding translation. The German version is legally binding.0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"pt-28 pb-20 bg-white","children":["$","section",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-3xl lg:text-4xl font-bold text-gray-900 mb-6","children":"Privacy Policy"}],["$","article",null,{"className":"whitespace-pre-line text-gray-700 leading-relaxed text-sm lg:text-base","children":"$2"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vbE5cddBtuAYy7fKOFijv"}
+5:null
